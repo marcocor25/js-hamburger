@@ -22,7 +22,7 @@ button.addEventListener('click', function() {
 // CREO LA CHIUSURA DEL MENÙ AL CLICK
 
 buttonClose.addEventListener('click', function() {
-    console.log('Finalmente ho finito un esercizio JavaScript senza sclerare.')
+    console.log('Finalmente ho finito un esercizio JavaScript senza sclerare.');
     burger.style.display = 'none';
 })
 
