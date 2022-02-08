@@ -84,6 +84,11 @@ header {
     font-size: 35px;
     text-decoration: none;
 }
+
+#logo-small {
+    display: none;
+}
+
 @media screen and (max-width: 1000px)
 {
     .header-right ul {
@@ -99,6 +104,16 @@ header {
     }
 
     .hamburger-menu.active {
+        display: block;
+    }
+
+    /* LOGO PER VIEWPORT PIÙ PICCOLE */
+    
+    #logo-large {
+        display: none;
+    }
+
+    #logo-small {
         display: block;
     }
 }
